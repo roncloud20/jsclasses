@@ -46,7 +46,7 @@ if (item1 === "sandal" || item1 === "bev" || item1 === "smoothie" || item1 === "
         }
 
         //Entrying their first item
-        var item3 = prompt("Enter your second item: (sandal, bev, smoothie and food)").toLowerCase();
+        var item3 = prompt("Enter your third item: (sandal, bev, smoothie and food)").toLowerCase();
         
         if (item3 === 'sandal' || item3 === 'bev' || item3 === 'smoothie' || item3 === 'food') {
             if (item3 === "sandal") {
