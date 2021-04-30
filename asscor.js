@@ -79,6 +79,5 @@ if (price > pocketMoney) {
     alert("Your are to balance " + change);
 } else {
     alert("You are eligable to buy all this items");
-    
     alert("Your change is remaining " + change);
 }
