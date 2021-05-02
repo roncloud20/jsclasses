@@ -14,6 +14,8 @@ if (grade > 90) {
     alert('Your grade is "CD"');
 } else if ( grade > 30) {
     alert('Your grade is "DD"');
-} else {
+} else if (grade <= 30) {
     alert('Your grade is "FF"');
-} 
+} else {
+    alert("Unknown entry");
+}
