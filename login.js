@@ -22,7 +22,7 @@ newsfeed = [
 var user = prompt("Ente username");
 var pass = prompt("Enter password");
 for (var i = 0; i< data.lenght; i++) {
-    if(user === data[i].username && pass === data[i].pass) {
+    if(data[i].username === user && data[i].password === pass) {
        console.log(newsfeed)
     } else {
         alert("Wrong username and password!")
